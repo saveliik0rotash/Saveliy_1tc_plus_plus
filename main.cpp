@@ -4,6 +4,8 @@ using namespace std;
 
 
 int main() {
-    cout << "123";
+    for(int i = 1; i <=26; i++){
+        cout << i << " litera to " << (char)(i+96) << "\n";
+    }
     return 0;
-}//fgdsfg
+}//
